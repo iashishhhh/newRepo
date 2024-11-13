@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLog post</title>
+    <link rel="stylesheet" href="blog-post.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="border-bottom  py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <div class="col-4 pt-1">
+                    <a class="link-secondary" href="#">Subscribe</a>
+                </div>
+                <div class="col-4 text-center">
+                    <img class=" logo " src="logo-newspaper.png" alt="">
+                </div>
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <i class="fa-solid fa-magnifying-glass pe-3"></i>
+                    <button id="btn1" type="button" class="btn btn-outline-danger" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                        Sing Up
+                    </button>
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content justify-content-center text-center py-3" id="modal-content">
+                                <div class="text-white bg-dark align-items-center mb-5">
+                                    <p class="fw-bold fs-3 ">Sign Up</p>
+                                </div>
+                                <div class="modal-body px-5">
+                                    <div class="mt-2">
+                                        <form action="#">
+                                            <input class="px-2" type="email" placeholder="Email..." required>
+                                    </div>
+                                    <div class="mt-3">
+                                        <input class="px-2" type="mobile-number" placeholder="Contact..." required>
+                                    </div>
+                                    <div class="mt-3">
+                                        <input class="px-2" type="password" placeholder="password..." required>
+                                    </div>
+
+                                    <a href="blog-post.html"><button class="sign rounded mt-3">Sign-Up</button></a>
+                                    </form>
+                                    <p class="text-start" style="font-size: 13px;">By creating an account you agree to
+                                        our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+
+        <div class="nav-scroller py-1 mb-3 border-bottom">
+            <nav class="nav nav-underline justify-content-between">
+                <a class="nav-link link-body-emphasis active" href="#">World</a>
+                <a class="nav-link link-body-emphasis" href="#">U.S.</a>
+                <a class="nav-link link-body-emphasis" href="#">Technology</a>
+                <a class="nav-link link-body-emphasis" href="#">Design</a>
+                <a class="nav-link link-body-emphasis" href="#">Culture</a>
+                <a class="nav-link link-body-emphasis" href="#">Business</a>
+                <a class="nav-link link-body-emphasis" href="#">Politics</a>
+                <a class="nav-link link-body-emphasis" href="#">Opinion</a>
+                <a class="nav-link link-body-emphasis" href="#">Science</a>
+                <a class="nav-link link-body-emphasis" href="#">Health</a>
+                <a class="nav-link link-body-emphasis" href="#">Style</a>
+                <a class="nav-link link-body-emphasis" href="#">Travel</a>
+            </nav>
+        </div>
+    </div>
+
+    <section class="container">
+        <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis shadow-sm">
+            <div class="row g-4">
+                <div class="col-lg-6 px-0 mt-5">
+                    <h1 class="display-3 fst-italic ">The New York Times</h1>
+                    <p class=" fs-6 my-3"> The New York Times is an American daily newspaper based in New York City. The
+                        New York Times
+                        covers domestic, national, and international news, and publishes opinion pieces, investigative
+                        reports, and reviews</p>
+                    <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p>
+                </div>
+                <div class="col-lg-6 px-0 text-center ">
+                    <img class="headimg" src="newspaper2.jpg" width="100%" alt="">
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="row py-3 mb-3 g-3 ">
+            <div class="col-md-6">
+                <div id="row" class="row g-0 shadow-sm rounded">
+                    <div id="cardimg" class="col-md-4 ">
+                        <img src="newspaper4.jpg" class="img-fluid w-100 " alt="...">
+                    </div>
+                    <div class="col-md-8 bg-dark text-white border">
+                        <div class="card-body px-2 py-2 ">
+                            <h5 class="card-title">Post1</h5>
+                            <p class="card-text py-2">The New York Times is an American daily newspaper based in New
+                                York
+                                City. The New York Times
+                                covers domestic, national, and international news, and publishes opinion pieces,
+                                investigative reports . </p>
+                            <p class="card-text "><small>Last updated 3 mins ago</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div id="row" class="row g-0 shadow-sm  rounded">
+                    <div class="col-md-4 ">
+                        <img src="newspaper3.jpg" class="img-fluid  w-100" alt="...">
+                    </div>
+                    <div class="col-md-8 bg-dark text-white  ">
+                        <div class="card-body px-2 py-2">
+                            <h5 class="card-title">Post2</h5>
+                            <p class="card-text py-2">The New York Times is an American daily newspaper based in New
+                                York
+                                City. The New York Times
+                                covers domestic, national, and international news, and publishes opinion pieces,
+                                investigative reports .</p>
+                            <p class="card-text"><small>Last updated 10 mins ago</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-8">
+                <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                    The New York Times </h3>
+                <p class="display-4">The New York Times</p>
+                <small class="text-muted">oct 1 2024</small>
+                <p class="border-bottom pb-4 mb-4 ">The New York Times (NYT)[b] is an American daily newspaper based in
+                    New York City. The New York Times covers domestic, national, and international news, and publishes
+                    opinion pieces, investigative reports, and reviews. As one of the longest-running newspapers in the
+                    United States, the Times serves as one of the country's newspapers of record. As of 2023, The New
+                    York Times is the second-largest newspaper by print circulation in the United States, with 296,330
+                    print subscribers. The Times has 8.83 million online subscribers, the most of any newspaper in the
+                    United States. The New York Times is published by The New York Times Company; since 1896, the
+                    company has been chaired by the Ochs-Sulzberger family, whose current chairman and the paper's
+                    publisher is A. G. Sulzberger.
+                </p>
+                <p>The Times was founded as the conservative New-York Daily Times in 1851, and came to national
+                    recognition in the 1870s with its aggressive coverage of corrupt politician William M. Tweed.
+                    Following the Panic of 1893, Chattanooga Times publisher Adolph Ochs gained a controlling interest
+                    in the company. In 1935, Ochs was succeeded by his son-in-law, Arthur Hays Sulzberger, who began a
+                    push into European news. Sulzberger's son-in-law Arthur Ochs became publisher in 1963, adapting to a
+                    changing newspaper industry and introducing radical changes. The New York Times was involved in the
+                    landmark 1964 U.S. Supreme Court case New York Times Co. v. Sullivan, which restricted the ability
+                    of public officials to sue the media for defamation.
+
+
+                </p>
+                <h2 class="border-top">HISTORY🔻</h2>
+                <blockquote class="blockquote">
+                    <span class="yellow">The New York Times was established in 1851 by New-York Tribune journalists
+                        Henry Jarvis Raymond
+                        and George Jones.[4] The Times experienced significant circulation, particularly among
+                        conservatives; New-York Tribune publisher Horace Greeley praised the New-York Daily Times.[5]
+                        During the American Civil War, Times correspondents gathered information directly from
+                        Confederate states.[6] In 1869, Jones inherited the paper from Raymond,[7] who had changed its
+                        name to The New-York Times.[8] Under Jones, the Times began to publish a series of articles
+                        criticizing Tammany Hall political boss William M. Tweed, despite vehement opposition from other
+                        New York newspapers.[9] In 1871, The New-York Times published Tammany Hall's accounting books;
+                        Tweed was tried in 1873 and sentenced to twelve years in prison. </span>
+                </blockquote>
+                <P class="display-5 border-top">ORGANISATION</P>
+                <span>Since 1896, The New York Times has been published by the Ochs-Sulzberger family, having previously
+                    been published by Henry Jarvis Raymond until 1869[103] and by George Jones until 1896.[104] Adolph
+                    Ochs published the Times until his death in 1935,[105] when he was succeeded by his son-in-law,
+                    Arthur Hays Sulzberger. Sulzberger was publisher until 1961[106] and was succeeded by Orvil Dryfoos,
+                    his son-in-law, who served in the position until his death in 1963.[107] Arthur Ochs Sulzberger
+                    succeeded Dryfoos until his resignation in 1992.[108] His son, Arthur Ochs Sulzberger Jr., served as
+                    publisher until 2018. The New York Times's current publisher is A. G. Sulzberger, Sulzberger Jr.'s
+                    son.[91] As of 2023, the Times's executive editor is Joseph Kahn[109] and the paper's managing
+                    editors are Marc Lacey and Carolyn Ryan, having been appointed in June 2022.[110] The New York
+                    Times's deputy managing editors are Sam Dolnick,[111] Monica Drake,[112] and Steve Duenes,[113] and
+                    the paper's assistant managing editors are Matthew Ericson,[114] Jonathan Galinsky, Hannah Poferl,
+                    Sam Sifton, Karron Skog,[115] and Michael Slackman.[116]</p>
+
+
+                    <div class="container px-2 py-2">
+                        <p class="display-3 border-top">HEADLINES-1</p>
+                        <img class="float-start px-2 image-fluid-1  rounded" src="newyork-post.jpg" alt="">
+                        <h2 class="headline">Israeli Military Announces Ground Invasion of Southern Lebanon </h2>
+                        <p> The Israeli military began a ground invasion of southern Lebanon, targeting what it said
+                            early
+                            Tuesday was Hezbollah military infrastructure in villages close to the Israel-Lebanon
+                            border,
+                            the first such incursion by Israel into its northern neighbor’s territory in nearly two
+                            decades.
+
+                            Israeli leaders approved the plans late Monday night to send in troops, according to three
+                            Israeli officials. And in a statement issued shortly before 2 a.m. Tuesday, the military
+                            said
+                            that Israeli troops had begun crossing the border “a few hours ago” in order to target sites
+                            that “pose an immediate threat to Israeli communities in northern Israel.”
+
+                            The officials said the plans involved operating in a narrow strip of land that lines the
+                            northern side of the border. The invasion force would consist of small groups of commandos
+                            accompanied by air cover, as well as artillery shells fired from Israel, the officials said.
+                            The
+                            officials spoke on the condition of anonymity to discuss sensitive military matters.
+
+                            The invasion followed intense Israeli strikes across Lebanon over the past two weeks that
+                            have
+                            killed hundreds of people. Israel is attempting to force a conclusion to a war that began
+                            last
+                            October, when Hezbollah started firing toward Israeli positions in solidarity with its ally
+                            Hamas.
+                            Hezbollah said on Monday that its forces would confront Israeli troops if they carried out a
+                            full invasion. “We will confront any possibility, and we are ready if the Israelis decide to
+                            enter by land,” Sheikh Naim Qassem, deputy to Hezbollah’s slain leader, Hassan Nasrallah,
+                            said
+                            in a televised statement. “The forces of the resistance are ready for a ground engagement.”
+                            The group denied that its fighting power or arsenal had been significantly damaged in recent
+                            weeks by Israel’s bombardments, which have killed hundreds of people, including civilians.
+
+                            Later, Hezbollah said in a statement that it had targeted Israeli troop movements across
+                            from
+                            Lebanese border towns. Rocket sirens were sounded in a number of northern Israeli border
+                            communities, including where the Israeli military has announced a “closed military zone.”
+
+                            Israeli commando units had made brief incursions into Lebanon in recent days to prepare for
+                            a
+                            possible wider ground invasion, according to Israeli officers and officials as well as a
+                            senior
+                            Western official.
+
+                            The raids were focused on gathering intelligence about Hezbollah positions close to the
+                            Israeli-Lebanese border, as well as identifying Hezbollah tunnels and military
+                            infrastructure,
+                            in order to attack them from the air or the ground, the seven Israeli and Western officials
+                            said. The officials spoke on the condition of anonymity to discuss a sensitive military
+                            matter.
+                            The Israeli military declined to comment.
+
+                            Israel’s security cabinet met on Monday evening to discuss whether and when to launch a
+                            major
+                            ground operation in southern Lebanon. Israel occupied southern Lebanon from 1982 to 2000,
+                            and
+                            briefly invaded in 2006 during a monthlong war with Hezbollah. It also invaded southern
+                            Lebanon
+                            in 1978.
+
+                            Before midnight, loud explosions could be heard and flashes of light could be seen in
+                            Dahiya,
+                            the densely populated area just south of Beirut where the Israeli military had issued fresh
+                            evacuation warnings. The Israeli military had called on Lebanese in and around three
+                            building
+                            complexes in the Dahiya to evacuate the areas, saying they were near Hezbollah targets.
+
+                            Israeli officials previously told the Biden administration that the commando units were
+                            conducting “limited operations focused on Hezbollah infrastructure near the border” between
+                            Israel and Lebanon, Matthew Miller, a U.S. State Department spokesman, told reporters on
+                            Monday.</p>
+
+                    </div>
+                    <br>
+                    <div class="container px-2 py-2">
+                        <p class="display-3 border-top">HEADLINES-2</p>
+                        <img class="float-end image-fluid-1  rounded" src="newspaper.jpg" alt="">
+                        <h2 class="headline  ">Israeli Military Announces Ground Invasion of Southern Lebanon </h2>
+                        <p> The Israeli military began a ground invasion of southern Lebanon,
+                            targeting what it said early
+                            Tuesday was Hezbollah military infrastructure in villages close to the Israel-Lebanon
+                            border,
+                            the first such incursion by Israel into its northern neighbor’s territory in nearly two
+                            decades.
+
+                            Israeli leaders approved the plans late Monday night to send in troops, according to three
+                            Israeli officials. And in a statement issued shortly before 2 a.m. Tuesday, the military
+                            said
+                            that Israeli troops had begun crossing the border “a few hours ago” in order to target sites
+                            that “pose an immediate threat to Israeli communities in northern Israel.”
+
+                            The officials said the plans involved operating in a narrow strip of land that lines the
+                            northern side of the border. The invasion force would consist of small groups of commandos
+                            accompanied by air cover, as well as artillery shells fired from Israel, the officials said.
+                            The
+                            officials spoke on the condition of anonymity to discuss sensitive military matters.
+
+                            The invasion followed intense Israeli strikes across Lebanon over the past two weeks that
+                            have
+                            killed hundreds of people. Israel is attempting to force a conclusion to a war that began
+                            last
+                            October, when Hezbollah started firing toward Israeli positions in solidarity with its ally
+                            Hamas.
+                            Hezbollah said on Monday that its forces would confront Israeli troops if they carried out a
+                            full invasion. “We will confront any possibility, and we are ready if the Israelis decide to
+                            enter by land,” Sheikh Naim Qassem, deputy to Hezbollah’s slain leader, Hassan Nasrallah,
+                            said
+                            in a televised statement. “The forces of the resistance are ready for a ground engagement.”
+                            The group denied that its fighting power or arsenal had been significantly damaged in recent
+                            weeks by Israel’s bombardments, which have killed hundreds of people, including civilians.
+
+                            Later, Hezbollah said in a statement that it had targeted Israeli troop movements across
+                            from
+                            Lebanese border towns. Rocket sirens were sounded in a number of northern Israeli border
+                            communities, including where the Israeli military has announced a “closed military zone.”
+
+                            Israeli commando units had made brief incursions into Lebanon in recent days to prepare for
+                            a
+                            possible wider ground invasion, according to Israeli officers and officials as well as a
+                            senior
+                            Western official.
+
+                            The raids were focused on gathering intelligence about Hezbollah positions close to the
+                            Israeli-Lebanese border, as well as identifying Hezbollah tunnels and military
+                            infrastructure,
+                            in order to attack them from the air or the ground, the seven Israeli and Western officials
+                            said. The officials spoke on the condition of anonymity to discuss a sensitive military
+                            matter.
+                            The Israeli military declined to comment.
+
+                            Israel’s security cabinet met on Monday evening to discuss whether and when to launch a
+                            major
+                            ground operation in southern Lebanon. Israel occupied southern Lebanon from 1982 to 2000,
+                            and
+                            briefly invaded in 2006 during a monthlong war with Hezbollah. It also invaded southern
+                            Lebanon
+                            in 1978.
+
+                            Before midnight, loud explosions could be heard and flashes of light could be seen in
+                            Dahiya,
+                            the densely populated area just south of Beirut where the Israeli military had issued fresh
+                            evacuation warnings. The Israeli military had called on Lebanese in and around three
+                            building
+                            complexes in the Dahiya to evacuate the areas, saying they were near Hezbollah targets.
+
+                            Israeli officials previously told the Biden administration that the commando units were
+                            conducting “limited operations focused on Hezbollah infrastructure near the border” between
+                            Israel and Lebanon, Matthew Miller, a U.S. State Department spokesman, told reporters on
+                            Monday.</p>
+                    </div>
+
+
+            </div>
+
+
+            <!-- side Area-->
+            <div class="col-md-4 ">
+                <div class="position-sticky" style="top: 32px;">
+                    <div class=" mb-3 rounded">
+                        <h4 class="fst-italic">About</h4>
+                        <p>The New York Times is an American daily newspaper based in New York
+                            City. The New York Times
+                            covers domestic, national, and international news, and publishes opinion pieces,
+                            investigative reports .</p>
+                        <div>
+                            <h4 class="fst-italic border-bottom px-3 py-4">Recent posts</h4>
+                            <div class="container">
+                                <div class="row g-2">
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <h6 class="mb-0 mt-4">Donald Trump’s First Term Is a Warning </h6>
+                                        <small class="text-body-secondary">Oct 3, 2024</small>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <img class=" w-100 " style="mix-blend-mode: darken;" src="recent-news1.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <h6 class="mb-0 mt-4">‘If Germany Can Do It, Why Can’t We?’ </h6>
+                                        <small class="text-body-secondary">Oct 3, 2024</small>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <img class=" w-100 " style="mix-blend-mode: darken;" src="recent-news.jpg"
+                                            alt="">
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <h6 class="mb-0 mt-4">Mexican Military Fatally Shoots 6 Migrants</h6>
+                                        <small class="text-body-secondary">Oct 15, 2024</small>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6">
+                                        <img class=" w-100 " style="mix-blend-mode: darken;" src="recent-news2.jpg"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <h4 class="fst-italic">Archives</h4>
+                            <ol class="list-unstyled mb-0">
+                                <li><a href="#">January 2024</a></li>
+                                <li><a href="#">February 2024</a></li>
+                                <li><a href="#">March 2024</a></li>
+                                <li><a href="#">April 2024</a></li>
+                                <li><a href="#">May 2024</a></li>
+                                <li><a href="#">June 2024</a></li>
+                                <li><a href="#">July 2024</a></li>
+                                <li><a href="#">August 2024</a></li>
+                                <li><a href="#">September 2024</a></li>
+                                <li><a href="#">October 2024</a></li>
+                                <li><a href="#">November 2024</a></li>
+                                <li><a href="#">December 2024</a></li>
+                            </ol>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <div class="container-fluid p-4 ">
+        <div id="footer" class="container px-0 mt-4 py-3 " style="border-top: double black 4px;">
+            <p class="new-york fw-bold fs-5">The New York Times</p>
+            <footer class="d-none d-lg-block">
+                <div class="row g-3  ">
+                    <div class="col-md-2">
+                        <span class="fs-6 fw-bold">NEWS</span>
+                        <ul class="list-group d-inline ">
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Home Page</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">U.S.</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">World</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Politics</a></li>
+                            <li class="list-item d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">New
+                                    York</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Education</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Sports</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Business</a></li>
+                            <li class="list-item d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Weather</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Tech</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Science</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <span class="fs-6 fw-bold">ARTS</span>
+                        <ul class="list-group d-inline">
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Book Review</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Best Seller Book List</a></li>
+                            <li class="list-item d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Dance</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Movies</a></li>
+                            <li class="list-item d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Musick</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Pop
+                                    Culture</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Television</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Theater</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <span class="fs-6 fw-bold">LIFESTYLE</span>
+                        <ul class="list-group d-inline">
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Health</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Well</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Food</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Resturant Review</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Love</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Travel</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Style</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Fashion</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Real Estate</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">T
+                                    magazine</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <span class="fs-6 fw-bold">OPINION</span>
+                        <ul class="list-group d-inline">
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Today's Opinion</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Columnists </a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Editorials</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Guest Essays</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Op-Docs</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Letters</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Sunday Opinion
+                                </a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Opinion Video</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Opinion Audio</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 border-end">
+                        <span class="fs-6 fw-bold">More</span>
+                        <ul class="list-group d-inline">
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Audio</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Games</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Cooking</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Wirecutter</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">The
+                                    Athletic</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Jobs</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Video</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Graphics</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Trending</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Live Events</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Corrections</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Reader Center</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">TimesMachine</a></li>
+                            <li class="list-item  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none">Graphics</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <span class="fs-6 fw-bold mx-2">ACCOUNT</span>
+                        <ul class="list-group d-inline">
+                            <li class="list-item fw-bold  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none"><i
+                                        class="fa-solid fa-briefcase mx-2"></i>Subscribe</a></li>
+                            <li class="list-item fw-bold  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none"><i
+                                        class="fa-solid fa-user mx-2 "></i>Manage My Account</a></li>
+                            <li class="list-item fw-bold  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none"> <i
+                                        class="fa-solid fa-truck mx-2"></i>Home Delivery</a></li>
+                            <li class="list-item fw-bold  d-flex"><a href="#"
+                                    class="item-links text-black text-decoration-none"><i
+                                        class="fa-solid fa-briefcase mx-2"></i>Gift Subscriptions</a></li>
+                        </ul>
+                        <div class="mx-2 py-2 footer border-bottom">
+                            <p>Group Subscriptions</p>
+                            <p>Gift Article</p>
+                            <p>Email Newssletter </p>
+                        </div>
+                        <div class="mx-2 py-2 footer">
+                            <p>NYT Licensing</p>
+                            <p>Replica Edition</p>
+                            <p>Times Store</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+
+
+
+
+
+        <!-- SMALL SCREEN -->
+        <div class="d-lg-none d-md-block " style="height: 35px;">
+            <p class=" bg-body-secondary rounded px-3 py-1 fw-bold" data-bs-toggle="collapse" href="#collapseExample"
+                role="button" aria-expanded="false" aria-controls="collapseExample">
+                NEWS
+            </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body" style="background-color:transparent; border: none;">
+                    <ul class="list-group d-inline bg-none ">
+                        <li class="list-item d-flex"><a href="#" class="item-links text-black text-decoration-none">Home
+                                Page</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">U.S.</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">World</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Politics</a></li>
+                        <li class="list-item d-flex"><a href="#" class="item-links text-black text-decoration-none">New
+                                York</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Education</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Sports</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Business</a></li>
+                        <li class="list-item d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Weather</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Tech</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Science</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <p class=" bg-body-secondary rounded px-3 py-1 fw-bold" data-bs-toggle="collapse" href="#Arts" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                ARTS
+            </p>
+            <div class="collapse" id="Arts">
+                <div class="card card-body" style="background-color:transparent; border: none;">
+                    <ul class="list-group d-inline">
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Book Review</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Best Seller Book List</a></li>
+                        <li class="list-item d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Dance</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Movies</a></li>
+                        <li class="list-item d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Musick</a></li>
+                        <li class="list-item  d-flex"><a href="#" class="item-links text-black text-decoration-none">Pop
+                                Culture</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Television</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Theater</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class=" bg-body-secondary rounded px-3 py-1 fw-bold" data-bs-toggle="collapse" href="#LIFESTYLE"
+                role="button" aria-expanded="false" aria-controls="collapseExample">
+                LIFESTYLE
+            </p>
+            <div class="collapse" id="LIFESTYLE">
+                <div class="card card-body" style="background-color:transparent; border: none;">
+                    <ul class="list-group d-inline">
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Health</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Well</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Food</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Resturant Review</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Love</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Travel</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Style</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Fashion</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Real Estate</a></li>
+                        <li class="list-item  d-flex"><a href="#" class="item-links text-black text-decoration-none">T
+                                magazine</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class=" bg-body-secondary rounded px-3 py-1 fw-bold" data-bs-toggle="collapse" href="#OPINION"
+                role="button" aria-expanded="false" aria-controls="collapseExample">
+                OPINION
+            </p>
+            <div class="collapse" id="OPINION">
+                <div class="card card-body" style="background-color:transparent; border: none;">
+                    <ul class="list-group d-inline">
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Today's Opinion</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Columnists </a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Editorials</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Guest Essays</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Op-Docs</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Letters</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Sunday Opinion
+                            </a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Opinion Video</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Opinion Audio</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class=" bg-body-secondary rounded px-3 py-1 fw-bold" data-bs-toggle="collapse" href="#MORE" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                MORE
+            </p>
+            <div class="collapse" id="MORE">
+                <div class="card card-body" style="background-color:transparent; border: none;">
+                    <ul class="list-group d-inline">
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Audio</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Games</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Cooking</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Wirecutter</a></li>
+                        <li class="list-item  d-flex"><a href="#" class="item-links text-black text-decoration-none">The
+                                Athletic</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Jobs</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Video</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Graphics</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Trending</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Live Events</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Corrections</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Reader Center</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">TimesMachine</a></li>
+                        <li class="list-item  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none">Graphics</a></li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <p class=" bg-body-secondary rounded px-3 py-1 fw-bold" data-bs-toggle="collapse" href="#ACCOUNT"
+                role="button" aria-expanded="false" aria-controls="collapseExample">
+                ACCOUNT
+            </p>
+            <div class="collapse" id="ACCOUNT">
+                <div class="card card-body" style="background-color:transparent; border: none;">
+                    <ul class="list-group d-inline">
+                        <li class="list-item fw-bold  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none"><i
+                                    class="fa-solid fa-briefcase mx-2"></i>Subscribe</a></li>
+                        <li class="list-item fw-bold  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none"><i
+                                    class="fa-solid fa-user mx-2 "></i>Manage My Account</a></li>
+                        <li class="list-item fw-bold  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none"> <i
+                                    class="fa-solid fa-truck mx-2"></i>Home Delivery</a></li>
+                        <li class="list-item fw-bold  d-flex"><a href="#"
+                                class="item-links text-black text-decoration-none"><i
+                                    class="fa-solid fa-briefcase mx-2"></i>Gift Subscriptions</a></li>
+                    </ul>
+                    <div class="mx-2 py-2 footer border-bottom">
+                        <p>Group Subscriptions</p>
+                        <p>Gift Article</p>
+                        <p>Email Newssletter </p>
+                    </div>
+                    <div class="mx-2 py-2 footer">
+                        <p>NYT Licensing</p>
+                        <p>Replica Edition</p>
+                        <p>Times Store</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center border-top footer-title">
+                <p style="font-size: 12px;"><i class="fa-regular fa-copyright"></i> 2024 The New York Times Company</p>
+            </div>
+
+        </div>
+        <div class="text-center border-top footer-title d-none d-lg-block">
+            <p style="font-size: 12px;"><i class="fa-regular fa-copyright"></i> 2024 The New York Times Company</p>
+        </div>
+    </div>
+    <p id="demo" class="fw-bold display-2 text-center bg-danger rounded-bottom"></p>
+
+
+</body>
+
+</html>
